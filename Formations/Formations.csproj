@@ -193,11 +193,21 @@
     <None Include="Content\DamageFont.xnb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Content\Skins\Blue.skin" />
-    <None Include="Content\Skins\Default.skin" />
-    <None Include="Content\Skins\Green.skin" />
-    <None Include="Content\Skins\Magenta.skin" />
-    <None Include="Content\Skins\Purple.skin" />
+    <None Include="Content\Skins\Blue.skin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Skins\Default.skin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Skins\Green.skin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Skins\Magenta.skin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Skins\Purple.skin">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
