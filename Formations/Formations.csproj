@@ -59,6 +59,7 @@
     <Compile Include="Connection\ConnectionManager.cs" />
     <Compile Include="Connection\ConnectionMessage.cs" />
     <Compile Include="Animations\FloatingText.cs" />
+    <Compile Include="Connection\ServerManager.cs" />
     <Compile Include="GameLobby.cs" />
     <Compile Include="GameLogin.cs" />
     <Compile Include="IGame.cs" />
